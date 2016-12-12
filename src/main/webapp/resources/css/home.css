@@ -1,0 +1,19 @@
+body{
+    background-image: url("/resources/images/background-pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.main{
+    padding: 150px 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.el2, .el1 {
+    flex-shrink: 1;
+}
+.el2{
+    margin-top: 20px;
+}

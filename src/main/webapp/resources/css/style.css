@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+#container{
+	width: 80%;  
+    margin: 0 auto;  
+     
+}
+#header{
+	padding: 1px;
+	 
+}
+#content{
+	float: left;
+    width: 39%;
+    padding: 5px; 
+}
+#content a{
+	color: #64679b;
+	text-decoration: none;
+}
+#sidebar{
+	margin-left: 40%;
+    padding: 10px; 
+    background: white;  
+}
+#sidebar p{
+	 margin-top: 0px;
+}
+#header h4{
+	margin-left: 29%;
+}
+#scrollup {
+position: fixed; /* фиксированная позиция */
+padding: 20px 15px 15px; /* отступы */
+border-radius: 5px; /* скругление углов */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+margin-left: 82.5%; /* отступ слева */
+bottom: 20px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+}
