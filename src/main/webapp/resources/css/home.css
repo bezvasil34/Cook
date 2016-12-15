@@ -1,5 +1,5 @@
 body{
-    background-image: url("/resources/images/background-pizza.jpg");
+    background-image: url("resources/images/background-pizza.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }

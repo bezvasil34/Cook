@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ua.com.cookbook.entity.Ingredient;
 import ua.com.cookbook.service.IngredientService;
 
-/**
- * Created by koko on 14.10.16.
- */
+
 @Controller
 public class IngredientController {
 
@@ -22,10 +20,10 @@ public class IngredientController {
         return "ingredient";
     }
 
-    @RequestMapping(value = "/newIngredient", method = RequestMethod.POST)
+    @RequestMapping(value = "/saveIngredient", method = RequestMethod.POST)
     public String newIngredient(@RequestParam String name, @RequestParam String amount){
         ingredientService.save(new Ingredient(name, amount));
-        return "redirect:/ingredient";
+        return "ingredient";
     }
 
 }

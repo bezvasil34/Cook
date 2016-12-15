@@ -7,18 +7,18 @@
 <html>
 
 <head>
-    <link  rel="stylesheet" href="/resources/css/reset.css"/>
+    <link  rel="stylesheet" href="resources/css/reset.css"/>
 
-    <link  rel="stylesheet" href="/resources/css/main-style-sheet.css"/>
+    <link  rel="stylesheet" href="resources/css/main-style-sheet.css"/>
 
-    <script type="text/javascript" src="/resources/js/jquery-3.1.1.min.js"></script>
-    <script src="/resources/js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery-3.1.1.min.js"></script>
+    <script src="resources/js/chosen.jquery.min.js"></script>
 
-    <link rel="shortcut icon" type="image/png" href=/resources/images/logo-small.png"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/logo-small.png"/>
 
-    <link rel="stylesheet" href="/resources/css/chosen.min.css">
-    <link rel="stylesheet" type="text/css" href="/resources/css/home.css">
-    <link rel="stylesheet" type="text/css" href="/resources/css/login_register_form.css">
+    <link rel="stylesheet" href="resources/css/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/home.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/login_register_form.css">
     <script>
         $(function () {
             $("select[name=search]").chosen();
@@ -39,9 +39,9 @@
 <div class="main" ng-app="myApp" ng-controller="mainCtrl as ctrl">
     <div class="search el1">
 
-        <img src="/resources/images/cookbook-big-logo.png" height="150"/>
+        <img src="resources/images/cookbook-big-logo.png" height="150"/>
         <br>
-        <img src="/resources/images/type-in-ingredients.png" height="100"/>
+        <img src="resources/images/type-in-ingredients.png" height="100"/>
         <br>
         <div id="mainInput">
             <form:form action="/" method="GET">
@@ -77,6 +77,6 @@
 </div>
 
 
-<script src="/resources/js/login_register_form.js"></script>
+<script src="resources/js/login_register_form.js"></script>
 </body>
 </html>
