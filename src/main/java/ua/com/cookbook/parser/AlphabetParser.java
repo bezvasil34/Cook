@@ -11,14 +11,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by koko on 02.11.16.
- */
+
 public class AlphabetParser {
 
+	
 
     public static List<String> parse() throws IOException {
-
+    	
+   
+    	
         List<String> links = new ArrayList<>();
 
         Document document = Jsoup.connect("http://fedup.com.au/recipes/blog").get();
@@ -34,8 +35,7 @@ public class AlphabetParser {
 
     public static List<Ingredient> getIngredient(List<String> links) throws IOException {
         Dish dish;
-
-
+    
         List<Ingredient> linkLetterList = new ArrayList<>();
 
         for (int i = 0; i <links.size(); i++) {
